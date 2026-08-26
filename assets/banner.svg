@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="shield-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+
+    <linearGradient id="pulse-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="subtle-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseCircle {
+      0% { r: 60px; opacity: 0.6; }
+      50% { r: 85px; opacity: 0.15; }
+      100% { r: 60px; opacity: 0.6; }
+    }
+    @keyframes floatParticle1 {
+      0% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+      50% { transform: translateY(-12px) translateX(8px); opacity: 0.8; }
+      100% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+    }
+    @keyframes floatParticle2 {
+      0% { transform: translateY(0px) translateX(0px); opacity: 0.4; }
+      50% { transform: translateY(15px) translateX(-10px); opacity: 0.9; }
+      100% { transform: translateY(0px) translateX(0px); opacity: 0.4; }
+    }
+    @keyframes starTwinkle {
+      0%, 100% { opacity: 0.4; transform: scale(0.85); }
+      50% { opacity: 1; transform: scale(1.15); }
+    }
+    .pulsing-wave {
+      animation: pulseCircle 4s ease-in-out infinite;
+    }
+    .particle-1 {
+      animation: floatParticle1 6s ease-in-out infinite;
+    }
+    .particle-2 {
+      animation: floatParticle2 5s ease-in-out infinite;
+    }
+    .star-anim {
+      animation: starTwinkle 3s ease-in-out infinite;
+      transform-origin: center;
+    }
+  </style>
+
+  <rect width="1200" height="320" rx="16" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="2" />
+
+  <g opacity="0.12" stroke="#64748b" stroke-width="1">
+    <line x1="0" y1="64" x2="1200" y2="64" stroke-dasharray="4,4" />
+    <line x1="0" y1="128" x2="1200" y2="128" stroke-dasharray="4,4" />
+    <line x1="0" y1="192" x2="1200" y2="192" stroke-dasharray="4,4" />
+    <line x1="0" y1="256" x2="1200" y2="256" stroke-dasharray="4,4" />
+    <line x1="200" y1="0" x2="200" y2="320" stroke-dasharray="4,4" />
+    <line x1="400" y1="0" x2="400" y2="320" stroke-dasharray="4,4" />
+    <line x1="600" y1="0" x2="600" y2="320" stroke-dasharray="4,4" />
+    <line x1="800" y1="0" x2="800" y2="320" stroke-dasharray="4,4" />
+    <line x1="1000" y1="0" x2="1000" y2="320" stroke-dasharray="4,4" />
+  </g>
+
+  <circle cx="140" cy="160" r="75" fill="none" stroke="url(#accent-grad)" stroke-width="1.5" class="pulsing-wave" opacity="0.4" />
+  <circle cx="140" cy="160" r="45" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.5" />
+  
+  <g transform="translate(100, 120)">
+    <path d="M40 0 L75 15 C75 55 40 75 40 75 C40 75 5 55 5 15 Z" fill="url(#shield-grad)" opacity="0.9" filter="url(#subtle-glow)" />
+    <path d="M40 22 L44 31 L54 32 L46 39 L49 49 L40 43 L31 49 L34 39 L26 32 L36 31 Z" fill="#ffffff" />
+  </g>
+
+  <circle cx="1080" cy="80" r="90" fill="url(#pulse-grad)" filter="url(#glow)" />
+  <circle cx="980" cy="240" r="70" fill="url(#pulse-grad)" filter="url(#glow)" />
+
+  <circle cx="280" cy="70" r="3" fill="#38bdf8" class="particle-1" />
+  <circle cx="920" cy="90" r="4" fill="#a855f7" class="particle-2" />
+  <circle cx="1050" cy="220" r="3.5" fill="#38bdf8" class="particle-1" />
+  <circle cx="150" cy="270" r="2.5" fill="#818cf8" class="particle-2" />
+  <circle cx="650" cy="40" r="3" fill="#c084fc" class="particle-1" />
+
+  <g transform="translate(870, 48)">
+    <rect x="-15" y="-10" width="220" height="42" rx="21" fill="#1e293b" stroke="#334155" stroke-width="1" opacity="0.9" />
+    <g transform="translate(10, 5) scale(0.65)">
+      <path d="M20 2 L26 14 L39 15 L29 24 L32 37 L20 30 L8 37 L11 24 L1 15 L14 14 Z" fill="#fbbf24" class="star-anim" />
+      <path d="M60 2 L66 14 L79 15 L69 24 L72 37 L60 30 L48 37 L51 24 L41 15 L54 14 Z" fill="#fbbf24" class="star-anim" style="animation-delay: 0.3s;" />
+      <path d="M100 2 L106 14 L119 15 L109 24 L112 37 L100 30 L88 37 L91 24 L81 15 L94 14 Z" fill="#fbbf24" class="star-anim" style="animation-delay: 0.6s;" />
+      <path d="M140 2 L146 14 L159 15 L149 24 L152 37 L140 30 L128 37 L131 24 L121 15 L134 14 Z" fill="#fbbf24" class="star-anim" style="animation-delay: 0.9s;" />
+      <path d="M180 2 L186 14 L199 15 L189 24 L192 37 L180 30 L168 37 L171 24 L161 15 L174 14 Z" fill="#fbbf24" class="star-anim" style="animation-delay: 1.2s;" />
+      <text x="220" y="27" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="20" font-weight="700">5.0 ORM</text>
+    </g>
+  </g>
+
+  <text x="240" y="140" fill="url(#accent-grad)" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="-0.5">
+    Awesome Online Reputation Management
+  </text>
+
+  <text x="242" y="185" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="500">
+    Curated SaaS Platforms, AI Listening Tools &amp; Open-Source ORM Frameworks
+  </text>
+
+  <g transform=" translate 242 220 ">
+    <rect x="0" y="0" width="170" height="34" rx="17" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" opacity="0.9" />
+    <circle cx="18" cy="17" r="5" fill="#38bdf8" />
+    <text x="32" y="22" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="600">Review Management</text>
+
+    <rect x="182" y="0" width="150" height="34" rx="17" fill="#1e293b" stroke="#818cf8" stroke-width="1.2" opacity="0.9" />
+    <circle cx="200" cy="17" r="5" fill="#818cf8" />
+    <text x="214" y="22" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="600">Social Listening</text>
+
+    <rect x="344" y="0" width="165" height="34" rx="17" fill="#1e293b" stroke="#c084fc" stroke-width="1.2" opacity="0.9" />
+    <circle cx="362" cy="17" r="5" fill="#c084fc" />
+    <text x="376" y="22" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="600">Sentiment &amp; Alerts</text>
+
+    <rect x="521" y="0" width="145" height="34" rx="17" fill="#1e293b" stroke="#34d399" stroke-width="1.2" opacity="0.9" />
+    <circle cx="539" cy="17" r="5" fill="#34d399" />
+    <text x="553" y="22" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="600">Open-Source ORM</text>
+  </g>
+</svg>
