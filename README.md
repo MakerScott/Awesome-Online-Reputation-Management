@@ -40,63 +40,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[Reputation.com](https://www.reputation.com/)**  
-
-  Enterprise reputation and experience platform that unifies reviews, surveys, listings, and location-level analytics for multi-location brands.
-
-
-
-- **[Birdeye](https://birdeye.com/)**  
-
-  All-in-one reputation and customer experience platform covering reviews, listings, messaging, surveys, and AI-assisted response workflows.
-
-
-
-- **[Yext](https://www.yext.com/)**  
-
-  Knowledge and listings management platform that keeps business information accurate across directories while supporting review and reputation use cases.
-
-
-
-- **[Podium](https://www.podium.com/)**  
-
-  Messaging and reputation platform popular with local businesses for review generation, response, and customer communication.
-
-
-
-- **[Brand24](https://brand24.com/)**  
-
-  AI-powered media and social monitoring tool for tracking mentions, sentiment, and online reviews across the web and social platforms.
-
-
-
-- **[Mention](https://mention.com/)**  
-
-  Brand monitoring and social listening platform for tracking mentions, engaging with audiences, and measuring online presence.
-
-
-
-- **[Meltwater](https://www.meltwater.com/)**  
-
-  Enterprise media intelligence and social listening suite used for reputation, PR, and competitive insight at scale.
-
-
-
-- **[Brandwatch](https://www.brandwatch.com/)**  
-
-  Consumer intelligence and social listening platform providing deep analytics on brand perception and online conversation.
-
-
-
-- **[Talkwalker](https://www.talkwalker.com/)**  
-
-  Social listening and analytics platform for monitoring brand health, crises, and audience sentiment across channels.
-
-
-
-- **[Determ](https://www.determ.com/)**  
-
-  Media monitoring and reputation tool focused on accessible brand tracking and alert workflows.
+| Platform | Description | Pricing | Free Tier / Trial Limit |
+| :--- | :--- | :--- | :--- |
+| **[Reputation.com](https://www.reputation.com/)** | Enterprise reputation & customer experience platform unifying reviews, surveys, and multi-location analytics. | Starts at ~$80/location/mo (Rep Core); Rep Core + Pulse at ~$115/location/mo; Rep Core + Surveys at ~$150/location/mo (annual contract). | No free plan; interactive demo & free online reputation readiness check available upon request. |
+| **[Birdeye](https://birdeye.com/)** | All-in-one reputation and customer experience platform covering reviews, listings, messaging, surveys, and AI response workflows. | Starts at ~$299/mo (custom quote based on location count & add-on modules). | 30-day free trial for Birdeye Social module; free Local SEO audit tool (full platform access requires demo). |
+| **[Yext](https://www.yext.com/)** | Knowledge and listings management platform keeping business information accurate across directories and managing reviews. | Starts at ~$199/yr (~$4/week base tier) up to ~$999/yr for premium plans; enterprise tiers quote-based. | No ongoing free plan; provides a free business listings scan tool & guided demo upon request. |
+| **[Podium](https://www.podium.com/)** | Messaging and reputation platform for local businesses to automate review requests, text marketing, and customer communication. | Starts at ~$399/mo (Core plan) and ~$599/mo (Pro plan) with annual contract; custom enterprise tiers available. | 14 to 30-day free trial available via select partner promotions; guided sales demo available. |
+| **[Brand24](https://brand24.com/)** | AI-powered media and social monitoring platform tracking online mentions, sentiment score, and reviews across the web. | Starts at $199/mo billed annually ($249/mo month-to-month for Individual: 3 keywords, 2,000 mentions/mo, 1 user); Team plan at $299/mo. | 14-day free trial with full feature access (capped at 100 mentions/day from X/Twitter & Instagram; no credit card required). |
+| **[Mention](https://mention.com/)** | Brand monitoring and social listening platform for tracking keywords, audience engagement, and competitive benchmarking. | Starts at $599/mo billed annually (Company plan: 5 alerts, 50,000 mentions/mo, unlimited users). | 14-day free trial with core monitoring features (no credit card required; guided demo available). |
+| **[Meltwater](https://www.meltwater.com/)** | Enterprise media intelligence and social listening suite for PR, brand perception, and competitive analysis at scale. | Starts at ~$6,000 – $10,000/year base tier depending on data volume, seats, and modules. | No public self-serve free plan; customized human-guided product walkthrough demo on request. |
+| **[Brandwatch](https://www.brandwatch.com/)** | Consumer intelligence and enterprise social listening platform providing deep sentiment analytics and trend tracking. | Starts at ~$800/mo (custom annual contract based on mention volume, query limits, and user seats). | No public self-serve free plan; live evaluation and tailored proof-of-concept demo via sales consultation. |
+| **[Talkwalker](https://www.talkwalker.com/)** | AI-powered social listening and media monitoring suite for tracking brand health, crisis detection, and sentiment. | Starts at ~$9,600/year (~$800/mo base tier) scaling by data consumption, languages, and topic quotas. | No free forever plan; tailored demo and evaluation trial available via sales consultation. |
+| **[Determ](https://www.determ.com/)** | Media monitoring and reputation tool delivering real-time keyword tracking, sentiment analysis, and alert workflows. | Starts at €99/mo (Focus tier: 1 topic); Expand tier at €299/mo (5 topics); Command tier at €499/mo (10 topics). | 5-day full-feature free trial (expandable to 14 days upon request with demo; no credit card required). |
 
 
 
