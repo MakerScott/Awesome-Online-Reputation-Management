@@ -61,7 +61,7 @@
 
 *Self-hosted tools, natural language processing libraries, web scrapers, and alerting frameworks for building private, privacy-conscious ORM pipelines. Sorted in descending order by GitHub Stars.*
 
-| Repository | Stars | Description | Category |
+| Repository | Github_Stars | Description | Category |
 | :--- | :--- | :--- | :--- |
 | **[searxng/searxng](https://github.com/searxng/searxng)** | [![Stars](https://img.shields.io/github/stars/searxng/searxng?style=social&color=white)](https://github.com/searxng/searxng/stargazers) | Privacy-respecting, metasearch engine aggregating results from over 70 search engines for brand intelligence. | Search & Web Discovery |
 | **[explosion/spaCy](https://github.com/explosion/spaCy)** | [![Stars](https://img.shields.io/github/stars/explosion/spaCy?style=social&color=white)](https://github.com/explosion/spaCy/stargazers) | Industrial-strength NLP in Python for named entity recognition (NER), entity linking, and sentiment analysis. | Sentiment & NLP Engine |
